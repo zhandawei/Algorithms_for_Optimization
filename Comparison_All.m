@@ -1,7 +1,7 @@
 clearvars;close all;clc;
 fun_name = 'Rastrigin';
-num_vari = 100;
-max_evaluation = 100000;
+num_vari = 10;
+max_evaluation = 10000;
 max_run = 10;
 [lower_bound,upper_bound] = Test_Function(fun_name,num_vari);
 % random search
@@ -241,7 +241,7 @@ lower_bound_CD = prctile(fmin_record_CD,25,2);
 upper_bound_CD = prctile(fmin_record_CD,75,2);
 lower_bound_PS = prctile(fmin_record_PS,25,2);
 upper_bound_PS = prctile(fmin_record_PS,75,2);
-lower_bound_improved = prctile(fmin_record_improved,25,2);
+lower_bound_improved = prctile(fmin_record_improved,25,2); 
 upper_bound_improved = prctile(fmin_record_improved,75,2);
 lower_bound_SA = prctile(fmin_record_SA,25,2);
 upper_bound_SA = prctile(fmin_record_SA,75,2);

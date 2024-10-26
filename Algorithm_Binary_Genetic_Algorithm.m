@@ -1,8 +1,9 @@
 clearvars;clc; format shortG;
 num_vari = 16;
 pop_size = 1000;
-max_gen = 100;
+max_gen = 200;
 % initialization
+fmin_record = zeros(max_gen,1);
 generation = 1;
 chrom_length = 4*num_vari;
 pop_chrom = randi([0,1],pop_size,chrom_length);
@@ -12,6 +13,7 @@ for ii = 1:num_vari
     pop_x(:,ii) = pop_chrom(:,4*(ii-1)+1:4*ii)*[8,4,2,1]' + 1;
 end
 pop_y = test_fun(pop_x);
+fmin_record(1) = min(pop_y);
 fprintf('generation: %d, fmin: %0.2f\n',generation,min(pop_y));
 for generation  = 2:max_gen
     % parent selection
@@ -55,8 +57,12 @@ for generation  = 2:max_gen
     pop_y = combine_y(sort_index(1:pop_size),:);
     min_y  = pop_y(1);
     min_x = pop_x(1,:);
+    fmin_record(generation) = min_y;
     fprintf('generation: %d, fmin: %0.2f\n',generation,min(pop_y));
 end
+
+figure;
+plot(fmin_record);
 
 
 
