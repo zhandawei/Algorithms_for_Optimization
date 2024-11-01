@@ -2,12 +2,13 @@ clearvars;close all;
 lower_bound = [-10,-10];
 upper_bound = [10,10];
 grid_num = 101;
+batch_size = 5;
 [x1_mesh,x2_mesh] = meshgrid(linspace(lower_bound(1),upper_bound(1),grid_num),linspace(lower_bound(2),upper_bound(2),grid_num));
 loss_mesh = zeros(grid_num,grid_num);
 for ii = 1:grid_num
     for jj = 1:grid_num
         x = [x1_mesh(ii,jj),x2_mesh(ii,jj)];
-        loss_mesh(ii,jj) = Regression_Loss(x);
+        loss_mesh(ii,jj) = Stochastic_Regression_Loss(x,batch_size);
     end
 end
 figure;

@@ -17,7 +17,8 @@ axis equal;
 hold on;
 % gradient descent
 max_evaluation = 20;
-eita = 0.01;
+eita = 0.1;
+beta = 0.5;
 x_old = [-8,-8];
 [f,df] = feval(fun_name,x_old);
 xall = x_old;
@@ -26,7 +27,11 @@ fprintf('evaluation: %d, fmin: %0.2f\n',1,f);
 scatter(x_old(:,1),x_old(:,2),'ro','filled');
 pause(0.5);
 for ii = 2:max_evaluation
-    x_new = x_old - eita*df;
+    if ii == 2
+        x_new = x_old - eita*df;
+    else
+        x_new = x_old - eita*df + beta*(xall(end,:)-xall(end-1,:));
+    end
     [f,df] = feval(fun_name,x_new);
     xall = [xall;x_new];
     x_old = x_new;
@@ -35,7 +40,7 @@ for ii = 2:max_evaluation
     scatter(xall(:,1),xall(:,2),'bo','filled');
     scatter(x_new(:,1),x_new(:,2),'ro','filled');
     drawnow;
-    pause(0.5);
+     pause(0.5);
     fprintf('evaluation: %d, fmin: %0.2f\n',ii,f);
 end
 figure;

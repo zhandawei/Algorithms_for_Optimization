@@ -22,6 +22,9 @@ switch fun_name
     case 'Regression_Loss'
         lower_bound = -10*ones(1,num_vari);
         upper_bound = 10*ones(1,num_vari);
+    case 'Three_Variable_Function'
+        lower_bound = 0*ones(1,num_vari);
+        upper_bound = 2*ones(1,num_vari);
     otherwise
         lower_bound = -10*ones(1,num_vari);
         upper_bound = 10*ones(1,num_vari);

@@ -7,7 +7,7 @@ loss_mesh = zeros(grid_num,grid_num);
 for ii = 1:grid_num
     for jj = 1:grid_num
         x = [x1_mesh(ii,jj),x2_mesh(ii,jj)];
-        loss_mesh(ii,jj) = Batch_Regression_Loss(x);
+        loss_mesh(ii,jj) = Regression_Loss(x);
     end
 end
 figure;

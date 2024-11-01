@@ -1,5 +1,6 @@
 clearvars;close all;clc;
 fun_name = 'Stochastic_Regression_Loss';
+batch_size = 3;
 num_vari = 2;
 [lower_bound,upper_bound] = Test_Function(fun_name,num_vari);
 grid_num = 101;
@@ -8,7 +9,7 @@ loss_mesh = zeros(grid_num,grid_num);
 for ii = 1:grid_num
     for jj = 1:grid_num
         x = [x1_mesh(ii,jj),x2_mesh(ii,jj)];
-        loss_mesh(ii,jj) = feval(fun_name,x);
+        loss_mesh(ii,jj) = feval(fun_name,x,batch_size);
     end
 end
 figure;
@@ -18,8 +19,8 @@ hold on;
 % gradient descent
 max_evaluation = 100;
 eita = 0.01;
-x_old = rand(1,2).*(upper_bound-lower_bound) + lower_bound;
-[f,df] = Stochastic_Regression_Loss(x_old);
+x_old = [-8,-8];
+[f,df] = feval(fun_name,x_old,batch_size);
 xall = x_old;
 fmin_record = f;
 fprintf('evaluation: %d, fmin: %0.2f\n',1,f);
@@ -27,7 +28,7 @@ scatter(x_old(:,1),x_old(:,2),'ro','filled');
 % pause(1);
 for ii = 2:max_evaluation
     x_new = x_old - eita*df;
-    [f,df] = Stochastic_Regression_Loss(x_new);
+    [f,df] = feval(fun_name,x_new,batch_size);
     xall = [xall;x_new];
     x_old = x_new;
     fmin_record = [fmin_record;f];

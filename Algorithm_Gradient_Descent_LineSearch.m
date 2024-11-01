@@ -17,7 +17,6 @@ axis equal;
 hold on;
 % gradient descent
 max_evaluation = 20;
-eita = 0.01;
 x_old = [-8,-8];
 [f,df] = feval(fun_name,x_old);
 xall = x_old;
@@ -26,8 +25,15 @@ fprintf('evaluation: %d, fmin: %0.2f\n',1,f);
 scatter(x_old(:,1),x_old(:,2),'ro','filled');
 pause(0.5);
 for ii = 2:max_evaluation
-    x_new = x_old - eita*df;
-    [f,df] = feval(fun_name,x_new);
+    % searching for best step size
+    eita_max = min(max((upper_bound-x_old)./(-df),(lower_bound-x_old)./(-df)),[],2);
+    eita_search = linspace(0,eita_max,100)';
+    x_search = x_old - eita_search.*df;
+    f_search = feval(fun_name,x_search);
+    [~,ind] = min(f_search);
+    eita_best = eita_search(ind);
+    x_new = x_old - eita_best*df;
+    [f,df] = Regression_Loss(x_new);
     xall = [xall;x_new];
     x_old = x_new;
     fmin_record = [fmin_record;f];

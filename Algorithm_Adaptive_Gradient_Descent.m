@@ -1,5 +1,5 @@
 clearvars;close all;clc;
-fun_name = 'Regression_Loss';
+fun_name = 'Valley_Function';
 num_vari = 2;
 [lower_bound,upper_bound] = Test_Function(fun_name,num_vari);
 grid_num = 101;
@@ -17,18 +17,20 @@ axis equal;
 hold on;
 % gradient descent
 max_evaluation = 20;
-eita = 0.01;
+eita = 0.1;
 x_old = [-8,-8];
 [f,df] = feval(fun_name,x_old);
+G = df;
 xall = x_old;
 fmin_record = f;
 fprintf('evaluation: %d, fmin: %0.2f\n',1,f);
 scatter(x_old(:,1),x_old(:,2),'ro','filled');
 pause(0.5);
 for ii = 2:max_evaluation
-    x_new = x_old - eita*df;
+    x_new = x_old - eita*df./(sqrt(sum(G.^2,1))/sum(sqrt(sum(G.^2))));
     [f,df] = feval(fun_name,x_new);
     xall = [xall;x_new];
+    G = [G;df];
     x_old = x_new;
     fmin_record = [fmin_record;f];
     plot(xall(:,1),xall(:,2),'b-');
