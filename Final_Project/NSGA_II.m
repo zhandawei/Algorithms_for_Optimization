@@ -4,30 +4,17 @@ num_obj = 3;
 num_vari = 10;
 pop_size = 20;
 max_evaluation = 200;
+% reference points are different for different problems
+ref_point = 2.5*ones(1,num_obj);
 lower_bound = zeros(1,num_vari);
 upper_bound = ones(1,num_vari);
-pareto_front = Calculate_Pareto_Front(fun_name,10000,num_obj);
-pareto_front_plot = Calculate_Pareto_Front(fun_name,1000,num_obj);
 evaluation = 0;
 generation = 1;
 pop_vari = rand(pop_size,num_vari).*(upper_bound-lower_bound) + lower_bound;
 pop_obj = feval(fun_name, pop_vari, num_obj);
 evaluation = evaluation + size(pop_obj,1);
 non_dominated_front = Pareto_Set(pop_obj);
-IGD = mean(min(pdist2(pareto_front,non_dominated_front),[],2));
-if num_obj == 2
-    scatter(pop_obj(:,1),pop_obj(:,2),'ro');hold on;
-    scatter(non_dominated_front(:,1),non_dominated_front(:,2),'ro','filled');
-    scatter(pareto_front_plot(:,1),pareto_front_plot(:,2),'b.');
-    title(sprintf('NSGA-II on %d-objective %s \n generation: %d, evaluations: %d, IGD: %0.4g',num_obj,fun_name,generation,evaluation,IGD));
-    drawnow;hold off;
-elseif num_obj == 3
-    scatter3(pop_obj(:,1),pop_obj(:,2),pop_obj(:,3),'ro'); hold on;
-    scatter3(non_dominated_front(:,1),non_dominated_front(:,2),non_dominated_front(:,3),'ro','filled');
-    scatter3(pareto_front_plot(:,1),pareto_front_plot(:,2),pareto_front_plot(:,3),'b.');
-    title(sprintf('NSGA-II on %d-objective %s \n generation: %d, evaluations: %d, IGD: %0.4g',num_obj,fun_name,generation,evaluation,IGD));
-    view(135,30);drawnow;hold off;
-end
+fprintf('generation: %d, evaluation: %d\n',generation,evaluation);
 while evaluation < max_evaluation
     % tournament selection
     front_rank = NonDominated_Rank(pop_obj,pop_size);
@@ -75,26 +62,15 @@ while evaluation < max_evaluation
     pop_obj_inter = [pop_obj;pop_obj_mutation];
     [front_rank,rank_num] = NonDominated_Rank(pop_obj_inter,pop_size);
     crowd_distance = Crowding_Distance(pop_obj_inter,front_rank);
-    [B,index] = sortrows([front_rank,-crowd_distance]);
+    [~,index] = sortrows([front_rank,-crowd_distance]);
     pop_vari = pop_vari_inter(index(1:pop_size),:);
     pop_obj = pop_obj_inter(index(1:pop_size),:);
     evaluation = evaluation + pop_size;
     generation = generation + 1;
     non_dominated_front = Pareto_Set(pop_obj);
-    IGD = mean(min(pdist2(pareto_front,non_dominated_front),[],2));
-    if num_obj == 2
-        scatter(pop_obj(:,1),pop_obj(:,2),'ro');hold on;
-        scatter(non_dominated_front(:,1),non_dominated_front(:,2),'ro','filled');
-        scatter(pareto_front_plot(:,1),pareto_front_plot(:,2),'b.');
-        title(sprintf('NSGA-II on %d-objective %s \n generation: %d, evaluations: %d, IGD: %0.4g',num_obj,fun_name,generation,evaluation,IGD));
-        drawnow;hold off;
-    elseif num_obj == 3
-        scatter3(pop_obj(:,1),pop_obj(:,2),pop_obj(:,3),'ro'); hold on;
-        scatter3(non_dominated_front(:,1),non_dominated_front(:,2),non_dominated_front(:,3),'ro','filled');
-        scatter3(pareto_front_plot(:,1),pareto_front_plot(:,2),pareto_front_plot(:,3),'b.');
-        title(sprintf('NSGA-II on %d-objective %s \n generation: %d, evaluations: %d, IGD: %0.4g',num_obj,fun_name,generation,evaluation,IGD));
-        view(135,30);drawnow;hold off;
-    end
+    fprintf('generation: %d, evaluation: %d\n',generation,evaluation);
 end
+
+fprintf('final HV of non-dominated points: %f\n', Hypervolume(non_dominated_front,ref_point));
 
 

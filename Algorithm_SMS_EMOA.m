@@ -1,9 +1,9 @@
 clearvars;clc;close all;
-fun_name = 'DTLZ5';
+fun_name = 'DTLZ2';
 num_obj = 3;
 num_vari = 10;
 pop_size = 50;
-max_evalution = 1000;
+max_evalution = 200;
 pareto_front = Calculate_Pareto_Front(fun_name,10000,num_obj);
 pareto_front_plot = Calculate_Pareto_Front(fun_name,1000,num_obj);
 lower_bound = zeros(1,num_vari);
@@ -83,11 +83,11 @@ while evaluation < max_evalution
     else
         R_1 = zeros(size(pop_obj,1),1);
         ref_p = max(pop_obj,[],1) + 1;
-        HVsum = Hypervolume(pop_obj,ref_p);
+        HVTotal = Hypervolume(pop_obj,ref_p);
         for i = 1: size(pop_obj,1)
             temp = pop_obj;
             temp(i,:) = [];
-            R_1(i) = HVsum - Hypervolume(temp,ref_p);
+            R_1(i) = HVTotal - Hypervolume(temp,ref_p);
         end
         [~,remove] = min(R_1);
     end
