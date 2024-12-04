@@ -21,10 +21,20 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{Hosseinian_2021}
-M.~Hosseinian, J.~P. Choi, S.-H. Chang, and J.~Lee, ``Review of 5g ntn
-  standards development and technical challenges for satellite integration with
-  the 5g network,'' \emph{IEEE Aerospace and Electronic Systems Magazine},
-  vol.~36, no.~8, pp. 22--31, 2021.
+\bibitem{Deb_2002}
+K.~Deb, A.~Pratap, S.~Agarwal, and T.~Meyarivan, ``A fast and elitist
+  multiobjective genetic algorithm: Nsga-ii,'' \emph{IEEE Transactions on
+  Evolutionary Computation}, vol.~6, no.~2, pp. 182--197, 2002.
+
+\bibitem{Zhang_2007}
+Q.~Zhang and H.~Li, ``Moea/d: A multiobjective evolutionary algorithm based on
+  decomposition,'' \emph{IEEE Transactions on Evolutionary Computation},
+  vol.~11, no.~6, pp. 712--731, 2007.
+
+\bibitem{Deb_2014}
+K.~Deb and H.~Jain, ``An evolutionary many-objective optimization algorithm
+  using reference-point-based nondominated sorting approach, part i: Solving
+  problems with box constraints,'' \emph{IEEE Transactions on Evolutionary
+  Computation}, vol.~18, no.~4, pp. 577--601, 2014.
 
 \end{thebibliography}
