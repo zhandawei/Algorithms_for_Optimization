@@ -1,5 +1,5 @@
 clearvars;clc;close all;
-load('optimization_result_f2.mat');
+load('optimization_result_f1.mat');
 
 median_0 = prctile(fmin0,50,2);
 lower_0 = prctile(fmin0,25,2);

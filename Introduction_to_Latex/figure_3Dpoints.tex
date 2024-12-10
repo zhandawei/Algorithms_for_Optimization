@@ -1,0 +1,24 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\definecolor{color1}{rgb}{0.85,0.325,0.098}
+\definecolor{color2}{rgb}{0,0.447,0.741}
+\begin{document}
+	\begin{tikzpicture}
+		\begin{axis}
+			[width = 10cm,
+			view = {116}{19},
+			xmin = 0,
+			xmax = 1.2,
+			ymin = 0,
+			ymax = 1.2,
+			zmin = 0,
+			zmax = 1.2,
+			xlabel = $f_1$,
+			ylabel = $f_2$,
+			zlabel = $f_3$]
+			\addplot3[only marks, mark = *,color = color1,mark options = {scale = 0.5}] table {pareto_front.dat} ;				
+			\addplot3[only marks, mark = *,color = color2,mark options = {scale = 1}] table {non_dominated_front.dat} ;		
+		\end{axis}
+	\end{tikzpicture}
+\end{document}

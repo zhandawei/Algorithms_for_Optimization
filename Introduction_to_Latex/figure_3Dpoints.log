@@ -1,0 +1,620 @@
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.30)  10 DEC 2024 11:19
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./figure_3Dpoints.tex
+(figure_3Dpoints.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/standalone\standal
+one.cls
+Document Class: standalone 2022/10/10 v1.3b Class to compile TeX sub-files stan
+dalone
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.s
+ty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.st
+y
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.
+tex
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils
+.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\keyval.t
+ex))
+\XKV@depth=\count190
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\sa@internal=\count191
+\c@sapage=\count192
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/standalone\standal
+one.cfg
+File: standalone.cfg 2022/10/10 v1.3b Default configuration file for 'standalon
+e' class
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2024/02/08 v1.4n Standard LaTeX document class
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count193
+\c@section=\count194
+\c@subsection=\count195
+\c@subsubsection=\count196
+\c@paragraph=\count197
+\c@subparagraph=\count198
+\c@figure=\count199
+\c@table=\count266
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+\sa@box=\box52
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\
+tikz.sty
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf
+.sty
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfr
+cs.sty
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pg
+futil-common.tex
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen142
+\pgfutil@tempdimb=\dimen143
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pg
+futil-latex.def
+\pgfutil@abb=\box53
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pg
+frcs.code.tex
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision
+.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf
+core.sty
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.
+sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.
+sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graph
+ics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex
+.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen144
+\Gin@req@width=\dimen145
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pg
+fsys.sty
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\
+pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pg
+fkeys.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pg
+fkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks22
+))
+\pgf@x=\dimen146
+\pgf@y=\dimen147
+\pgf@xa=\dimen148
+\pgf@ya=\dimen149
+\pgf@xb=\dimen150
+\pgf@yb=\dimen151
+\pgf@xc=\dimen152
+\pgf@yc=\dimen153
+\pgf@xd=\dimen154
+\pgf@yd=\dimen155
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count267
+\c@pgf@countb=\count268
+\c@pgf@countc=\count269
+\c@pgf@countd=\count270
+\t@pgf@toka=\toks23
+\t@pgf@tokb=\toks24
+\t@pgf@tokc=\toks25
+\pgf@sys@id@count=\count271
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\
+pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\
+pgfsys-xetex.def
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\
+pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\
+pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count272
+)))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\
+pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count273
+\pgfsyssoftpath@bigbuffer@items=\count274
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\
+pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color
+.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor
+.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+.code.tex
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+util.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+parser.code.tex
+\pgfmath@dimen=\dimen156
+\pgfmath@count=\count275
+\pgfmath@box=\box54
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+functions.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+functions.basic.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+functions.trigonometric.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+functions.random.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+functions.comparison.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+functions.base.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+functions.round.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+functions.misc.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+functions.integerarithmetics.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+calc.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+float.code.tex
+\c@pgfmathroundto@lastzeros=\count276
+))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.
+code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen157
+\pgf@picmaxx=\dimen158
+\pgf@picminy=\dimen159
+\pgf@picmaxy=\dimen160
+\pgf@pathminx=\dimen161
+\pgf@pathmaxx=\dimen162
+\pgf@pathminy=\dimen163
+\pgf@pathmaxy=\dimen164
+\pgf@xx=\dimen165
+\pgf@xy=\dimen166
+\pgf@yx=\dimen167
+\pgf@yy=\dimen168
+\pgf@zx=\dimen169
+\pgf@zy=\dimen170
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen171
+\pgf@path@lasty=\dimen172
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen173
+\pgf@shorten@start@additional=\dimen174
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count277
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen175
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen176
+\pgf@pt@y=\dimen177
+\pgf@pt@temp=\dimen178
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen179
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen180
+\pgf@sys@shading@range@num=\count278
+\pgf@shadingcount=\count279
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box58
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfm
+oduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box59
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfm
+oduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\
+pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen181
+\pgf@nodesepend=\dimen182
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\
+pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgff
+or.sty
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfk
+eys.sty
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pg
+fkeys.code.tex))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.s
+ty
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+.code.tex))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pg
+ffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen183
+\pgffor@skip=\dimen184
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
+))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlaye
+r/tikz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pg
+flibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count280
+\pgfplotmarksize=\dimen185
+)
+\tikz@lastx=\dimen186
+\tikz@lasty=\dimen187
+\tikz@lastxsaved=\dimen188
+\tikz@lastysaved=\dimen189
+\tikz@lastmovetox=\dimen190
+\tikz@lastmovetoy=\dimen191
+\tikzleveldistance=\dimen192
+\tikzsiblingdistance=\dimen193
+\tikz@figbox=\box60
+\tikz@figbox@bg=\box61
+\tikz@tempbox=\box62
+\tikz@tempbox@bg=\box63
+\tikztreelevel=\count281
+\tikznumberofchildren=\count282
+\tikznumberofcurrentchild=\count283
+\tikz@fig@count=\count284
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfm
+odulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count285
+\pgfmatrixcurrentcolumn=\count286
+\pgf@matrix@numberofcolumns=\count287
+)
+\tikz@expandcount=\count288
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.
+sty
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplot
+s.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplot
+s.code.tex
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplot
+score.code.tex
+\t@pgfplots@toka=\toks31
+\t@pgfplots@tokb=\toks32
+\t@pgfplots@tokc=\toks33
+\pgfplots@tmpa=\dimen194
+\c@pgfplots@coordindex=\count289
+\c@pgfplots@scanlineindex=\count290
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgf
+plotssysgeneric.code.tex))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pg
+fplotslibrary.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfc
+ompatib\pgfplotsoldpgfsupp_loader.code.tex
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pg
+flibraryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfc
+ompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pg
+fplotsutil.code.tex
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststr
+ucture\pgfplotsliststructure.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststr
+ucture\pgfplotsliststructureext.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststr
+ucture\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count291
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststr
+ucture\pgfplotsmatrix.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtabl
+e\pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count292
+\t@pgfplotstable@a=\toks37
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststr
+ucture\pgfplotsdeque.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pg
+fplotsbinary.code.tex
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pg
+fplotsbinary.data.code.tex))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pg
+fplotsutil.verb.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pg
+flibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count293
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgf
+librarypgfplots.surfshading.pgfsys-xetex.def
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgf
+librarypgfplots.surfshading.pgfsys-dvipdfmx.def
+\c@pgfplotslibrarysurf@streamlen=\count294
+))))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pg
+fplotscolormap.code.tex
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pg
+fplotscolor.code.tex))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplot
+sstackedplots.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplot
+splothandlers.code.tex
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplot
+smeshplothandler.code.tex
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplot
+smeshplotimage.code.tex)))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplot
+s.scaling.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplot
+scoordprocessing.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplot
+s.errorbars.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplot
+s.markers.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplot
+sticks.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplot
+s.paths.code.tex)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfm
+oduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen195
+\pgfdecoratedremainingdistance=\dimen196
+\pgfdecoratedinputsegmentcompleteddistance=\dimen197
+\pgfdecoratedinputsegmentremainingdistance=\dimen198
+\pgf@decorate@distancetomove=\dimen199
+\pgf@decorate@repeatstate=\count295
+\pgfdecorationsegmentamplitude=\dimen256
+\pgfdecorationsegmentlength=\dimen257
+)
+\tikz@lib@dec@box=\box64
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/de
+corations\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/de
+corations\pgflibrarydecorations.pathreplacing.code.tex))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\ti
+kzlibrarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count296
+\pgfplots@xmin@reg=\dimen258
+\pgfplots@xmax@reg=\dimen259
+\pgfplots@ymin@reg=\dimen260
+\pgfplots@ymax@reg=\dimen261
+\pgfplots@zmin@reg=\dimen262
+\pgfplots@zmax@reg=\dimen263
+)
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pg
+flibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backen
+d-xetex.def
+File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
+\g__graphics_track_int=\count297
+\l__pdf_internal_box=\box65
+\g__pdf_backend_annotation_int=\count298
+\g__pdf_backend_link_int=\count299
+) (figure_3Dpoints.aux)
+\openout1 = `figure_3Dpoints.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
+.
+
+(C:\Users\Dawei Zhan\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
+your preamble.
+ on input line 6.
+
+PGFPlots: reading {pareto_front.dat}
+PGFPlots: reading {non_dominated_front.dat}
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 22.
+
+
+[1
+
+] (figure_3Dpoints.aux)
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 22316 strings out of 409033
+ 597608 string characters out of 5755805
+ 1980560 words of memory out of 5000000
+ 44688 multiletter control sequences out of 15000+600000
+ 558077 words of font info for 37 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 102i,8n,107p,756b,1868s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on figure_3Dpoints.pdf (1 page).
